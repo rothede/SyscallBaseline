@@ -1,0 +1,11 @@
+1. What is the preprocessed output for the line where you make system calls for the time method and the delay method.
+
+2. What is the assembly language code near where the system call is actually made (note: You may not directly see the interrupt being called, as the syscall may be wrapping you code in more library code prior to performing the trap to the OS.
+
+3. Can you see a relationship between the numbers in the assembly language code, the numbers in the preprocessed source code, and the numbers in the documentation on kernelgrok?
+
+4. Why does the actual delay not match the ideal delay?
+
+5. Did you ever have a negative actual delay print out?  If so, what error did you make that caused this to occur?
+
+
