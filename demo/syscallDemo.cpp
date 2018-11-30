@@ -17,10 +17,14 @@ int main(int argc, char *argv[])
   cout << "Hello World.  This is a system call example."  << "\n";
  
   // Now obtain information about the thread id.
-  pid_t tid;
-  tid = syscall(SYS_gettid);
+  pid_t pid;
+  pid = syscall(SYS_getpid);
 
   // Now print out the id info.
-  cout << "The thread id is " << tid << "\n";
+  cout << "The process id is " << pid << "\n";
+
+  // Now get the pid info through a library call.
+  pid = getpid();
+  cout << "The process id is " << pid << "\n";
 }
 
