@@ -1,0 +1,9 @@
+[ 5 ]  Questions Answered properly
+[ 1 ]  Call to thread id accessor properly made using syscall mechanism.
+[ 1 ]  Proper call to nanosleep syscall.
+[ 1 ]  Proper call to the gettime method.
+[ 1 ]  Makefile properly executes and builds the code
+[ 1 ]  File properly identifies student by name and is commented appropriately.
+[   ]  Total
+
+Comments:
